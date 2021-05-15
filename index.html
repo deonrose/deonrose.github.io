@@ -3,9 +3,23 @@
 <head>
 <meta charset="utf-8">
 <title>deonrose</title>
+<script>
+	fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      const hitokoto = document.getElementById('hitokoto_text')
+      hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+      hitokoto.innerText = data.hitokoto
+    })
+//一言Javascript//
+	
+</script>
+<link href="css.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-你好世界。
+<div>
+  <p id="hitokoto_text"></p>
+</div>
 </body>
 </html>
