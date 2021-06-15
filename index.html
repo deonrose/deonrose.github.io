@@ -2,86 +2,24 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>电报信使</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:title" content="Telegram – a new era of messaging">
-<meta property="og:image" content="https://telegram.org/img/t_logo.png">
-<meta property="og:site_name" content="Telegram">
-<meta property="og:description" content="Fast. Secure. Powerful.">
-<meta property="fb:app_id" content="254098051407226">
-<meta property="vk:app_id" content="3782569">
-<meta name="apple-itunes-app" content="app-id=686449807">
-<meta name="telegram:channel" content="@telegram">
-<link rel="icon" type="image/svg+xml" href="https://telegram.org/img/website_icon.svg?4">
-<link rel="alternate icon" href="https://telegram.org/favicon.ico?4" type="image/x-icon" />
-<link href="https://telegram.org/css/bootstrap.min.css?3" rel="stylesheet">
-<link href="https://telegram.org/css/telegram.css?212" rel="stylesheet" media="screen">
-<style></style>
+<title>deonrose</title>
+<script>
+	fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      const hitokoto = document.getElementById('hitokoto_text')
+      hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+      hitokoto.innerText = data.hitokoto
+    })
+//一言Javascript//
+	
+</script>
+<link href="css.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<div id="fb-root"></div>
-<div class="tl_page_wrap">
-  <div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
-    <div class="navbar-inner">
-      <div class="container clearfix">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="/">主页</a></li>
-          <li class=""><a href="/apps">应用程序</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="container clearfix tl_page_container  tl_main_page_container">
-    <div class="tl_page">
-      <div class="tl_main_wrap">
-        <div class="tl_main_head">
-          <div class="tl_main_side_blog">
-            <div class="side_blog_wrap"> </div>
-          </div>
-          <div class="tl_main_logo_wrap"> <a href="/" class="tl_main_logo">
-            <svg width="128" height="128" class="tl_main_logo">
-              <image class="tl_main_logo" xlink:href="https://telegram.org/img/t_logo.svg?1" src="https://telegram.org/img/t_logo.png?1" srcset="https://telegram.org/img/t_logo_2x.png?1 2x, https://telegram.org/img/t_logo.png?1 1x" alt="Telegram logo" width="128" height="128" />
-            </svg>
-            <div class="tl_main_logo_title_image" alt="Telegram"></div>
-            </a>
-            <p class="tl_main_logo_lead"></p>
-          </div>
-        </div>
-        <div class="tl_main_download_mobile clearfix"> 
-		<a href="/android/index.html" class="tl_main_download_link tl_main_download_link_android" data-track="AppDownload/Android" onclick="trackDlClick(this, event)"  onmouseover="mainDemoVideoHover(this, 1)" onmouseout="mainDemoVideoHover(this, 0)"> <i class="icon icon-android "></i>Telegram for <b>Android</b>
-         <div class="tl_main_download_image__android"></div>
-         <video class="tl_main_video_player tl_main_video_player__android video__init_retina" muted=""  vindex="1" preload="none" data-sources="https://telegram.org/img/t_main_Android_demo.mp4,https://telegram.org/img/t_main_Android_demo_2x.mp4"></video>
-         </a>
-			
-		<a href="https://apps.apple.com/app/telegram-messenger/id686449807" class="tl_main_download_link tl_main_download_link_ios" target="_blank" data-track="AppDownload/iOS" onclick="trackDlClick(this, event)"  onmouseover="mainDemoVideoHover(this, 1)" onmouseout="mainDemoVideoHover(this, 0)"> <i class="icon icon-ios "></i>Telegram for <b>iPhone</b> / <b>iPad</b>
-          <div class="tl_main_download_image__ios"></div>
-          <video class="tl_main_video_player tl_main_video_player__ios video__init_retina" muted=""  vindex="1" preload="none" data-sources="/img/t_main_iOS_demo.mp4,/img/t_main_iOS_demo_2x.mp4"></video>
-          </a> 
-			
-			<a href="/desktop/index.html" class="tl_main_download_link tl_main_download_link_tdesktop" data-track="AppDownload/TDesktop" onclick="trackDlClick(this, event)"> Telegram for <b>Windows / Mac / Linux</b> </a> <a class="tl_main_download_more_btn" href="/apps">Browse more Telegram apps<i class="icon icon-arrow-more"></i></a> </div>
-		  
-        <div class="tl_main_download_desktop_section">
-          <h3 class="tl_main_download_desktop_header"></h3>
-          <div class="tl_main_download_desktop_wrap1">
-            <div class="tl_main_download_desktop_wrap">
-              <div class="tl_main_download_desktop clearfix">
-                <div class="tl_main_download_desktop_links clearfix"> <a href="/desktop/index.html" class="tl_main_download_desktop_link tl_main_download_link_td" data-track="DesktopDownload/TDesktop" onclick="trackDlClick(this, event)"> Telegram&nbsp;for <b>PC / Linux</b> </a><a href="/macos/index.html" class="tl_main_download_desktop_link tl_main_download_link_osx" data-track="DesktopDownload/OSX" onclick="trackDlClick(this, event)"> Telegram&nbsp;for <b>macOS</b> </a> &nbsp;
-                  &nbsp; </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<div>
+  <p id="hitokoto_text"></p>
 </div>
-<script src="/js/main.js?42"></script> 
-<script src="/js/tgsticker.js?24"></script> 
-<script>mainInitRetinaVideos();
-mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":3,"unsupportedURL":"\/?notgs=1"});
-backToTopInit("Go up");
-removePreloadInit();
-</script>
 </body>
 </html>
