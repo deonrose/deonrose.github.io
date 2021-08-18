@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.io</id>
+    <id>https://deonrose.github.io</id>
     <title>辫子的博客</title>
-    <updated>2021-08-18T22:27:07.588Z</updated>
+    <updated>2021-08-18T22:28:17.333Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.io"/>
-    <link rel="self" href="https://github.io/atom.xml"/>
-    <logo>https://github.io/images/avatar.png</logo>
-    <icon>https://github.io/favicon.ico</icon>
+    <link rel="alternate" href="https://deonrose.github.io"/>
+    <link rel="self" href="https://deonrose.github.io/atom.xml"/>
+    <logo>https://deonrose.github.io/images/avatar.png</logo>
+    <icon>https://deonrose.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 辫子的博客</rights>
     <entry>
         <title type="html"><![CDATA[留言板]]></title>
-        <id>https://github.io/post/GKcuRPj35/</id>
-        <link href="https://github.io/post/GKcuRPj35/">
+        <id>https://deonrose.github.io/post/GKcuRPj35/</id>
+        <link href="https://deonrose.github.io/post/GKcuRPj35/">
         </link>
         <updated>2021-08-18T22:08:09.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Trojan一键安装暂行方案]]></title>
-        <id>https://github.io/post/MOFXXBobf/</id>
-        <link href="https://github.io/post/MOFXXBobf/">
+        <id>https://deonrose.github.io/post/MOFXXBobf/</id>
+        <link href="https://deonrose.github.io/post/MOFXXBobf/">
         </link>
         <updated>2021-08-18T19:46:52.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown 的高级用法]]></title>
-        <id>https://github.io/post/fTqpdCYZq/</id>
-        <link href="https://github.io/post/fTqpdCYZq/">
+        <id>https://deonrose.github.io/post/fTqpdCYZq/</id>
+        <link href="https://deonrose.github.io/post/fTqpdCYZq/">
         </link>
         <updated>2021-08-18T10:20:50.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[纪录片 人生七年反应的事实]]></title>
-        <id>https://github.io/post/pf7f_-oiA/</id>
-        <link href="https://github.io/post/pf7f_-oiA/">
+        <id>https://deonrose.github.io/post/pf7f_-oiA/</id>
+        <link href="https://deonrose.github.io/post/pf7f_-oiA/">
         </link>
         <updated>2021-08-18T10:13:17.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vue调试工具Devtools不出现的解决方式]]></title>
-        <id>https://github.io/post/G-5M7fEJQ/</id>
-        <link href="https://github.io/post/G-5M7fEJQ/">
+        <id>https://deonrose.github.io/post/G-5M7fEJQ/</id>
+        <link href="https://deonrose.github.io/post/G-5M7fEJQ/">
         </link>
         <updated>2021-08-18T00:50:13.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[HTML CSS样式设置图片文字无法被选取美化]]></title>
-        <id>https://github.io/post/PPynZkqR1/</id>
-        <link href="https://github.io/post/PPynZkqR1/">
+        <id>https://deonrose.github.io/post/PPynZkqR1/</id>
+        <link href="https://deonrose.github.io/post/PPynZkqR1/">
         </link>
         <updated>2021-08-18T00:31:57.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[站点收集]]></title>
-        <id>https://github.io/post/n_00q1gJi/</id>
-        <link href="https://github.io/post/n_00q1gJi/">
+        <id>https://deonrose.github.io/post/n_00q1gJi/</id>
+        <link href="https://deonrose.github.io/post/n_00q1gJi/">
         </link>
         <updated>2021-08-17T23:46:06.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[HTML内容垂直居中的方法。]]></title>
-        <id>https://github.io/post/OKCLZmk13/</id>
-        <link href="https://github.io/post/OKCLZmk13/">
+        <id>https://deonrose.github.io/post/OKCLZmk13/</id>
+        <link href="https://deonrose.github.io/post/OKCLZmk13/">
         </link>
         <updated>2021-08-17T23:10:18.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[如何让背景图片自适应容器]]></title>
-        <id>https://github.io/post/BaLYNbtjd/</id>
-        <link href="https://github.io/post/BaLYNbtjd/">
+        <id>https://deonrose.github.io/post/BaLYNbtjd/</id>
+        <link href="https://deonrose.github.io/post/BaLYNbtjd/">
         </link>
         <updated>2021-08-17T21:33:48.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://github.io/post/hello-gridea/</id>
-        <link href="https://github.io/post/hello-gridea/">
+        <id>https://deonrose.github.io/post/hello-gridea/</id>
+        <link href="https://deonrose.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
