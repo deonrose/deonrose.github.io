@@ -2,13 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deonrose.github.io</id>
     <title>辫子的博客</title>
-    <updated>2021-08-18T22:28:17.333Z</updated>
+    <updated>2021-08-19T01:46:49.412Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deonrose.github.io"/>
     <link rel="self" href="https://deonrose.github.io/atom.xml"/>
     <logo>https://deonrose.github.io/images/avatar.png</logo>
     <icon>https://deonrose.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 辫子的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[小说Web应用]]></title>
+        <id>https://deonrose.github.io/post/4OMKK8_MD/</id>
+        <link href="https://deonrose.github.io/post/4OMKK8_MD/">
+        </link>
+        <updated>2021-08-18T23:49:51.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[页面中加入m3u8后缀的播放源]]></title>
+        <id>https://deonrose.github.io/post/qFosNa9JR/</id>
+        <link href="https://deonrose.github.io/post/qFosNa9JR/">
+        </link>
+        <updated>2021-08-18T23:16:59.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[留言板]]></title>
         <id>https://deonrose.github.io/post/GKcuRPj35/</id>
@@ -64,25 +78,5 @@
         <link href="https://deonrose.github.io/post/OKCLZmk13/">
         </link>
         <updated>2021-08-17T23:10:18.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何让背景图片自适应容器]]></title>
-        <id>https://deonrose.github.io/post/BaLYNbtjd/</id>
-        <link href="https://deonrose.github.io/post/BaLYNbtjd/">
-        </link>
-        <updated>2021-08-17T21:33:48.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://deonrose.github.io/post/hello-gridea/</id>
-        <link href="https://deonrose.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></content>
     </entry>
 </feed>
