@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deonrose.github.io</id>
-    <title>辫子的博客</title>
-    <updated>2021-08-22T21:05:19.496Z</updated>
+    <title>高佬泉的博客</title>
+    <updated>2021-08-23T08:21:43.524Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deonrose.github.io"/>
     <link rel="self" href="https://deonrose.github.io/atom.xml"/>
     <logo>https://deonrose.github.io/images/avatar.png</logo>
     <icon>https://deonrose.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 辫子的博客</rights>
+    <rights>All rights reserved 2021, 高佬泉的博客</rights>
     <entry>
         <title type="html"><![CDATA[Vpn 与 ss 或 ssr 的区别]]></title>
         <id>https://deonrose.github.io/post/Fr6h4Rvrt/</id>
