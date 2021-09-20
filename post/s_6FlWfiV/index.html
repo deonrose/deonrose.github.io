@@ -8,7 +8,7 @@
 <meta name="keywords" content="辫子">
 <meta name="description" content="">
 <meta name="theme-color" content="#0b7285">
-<title>页面中加入m3u8后缀的播放源 | 高佬泉的博客</title>
+<title>简历相关的方面 | 高佬泉的博客</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1632138612863">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
@@ -58,8 +58,8 @@
 
 
 
-  <meta name="description" content="页面中加入m3u8后缀的播放源" />
-  <meta name="keywords" content="前端" />
+  <meta name="description" content="简历相关的方面" />
+  <meta name="keywords" content="" />
 </head>
 
 <body>
@@ -251,8 +251,8 @@
           <div class="section bg-color post post-page">
             <section class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://deonrose.github.io/post/qFosNa9JR/">
-      页面中加入m3u8后缀的播放源
+    <a class="post-title-link" href="https://deonrose.github.io/post/s_6FlWfiV/">
+      简历相关的方面
     </a>
   </h1>
   <div class="post-meta">
@@ -260,81 +260,25 @@
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span class="language" data-lan="publish">发布于</span>
-      <span class="publish-time" data-t="2021-08-19 07:16:59">2021-08-19</span>
+      <span class="publish-time" data-t="2021-08-27 08:49:51">2021-08-27</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
     <span class="meta-item">
-      <i class="fa fa-folder-o"></i>
-      <span class="pc-show language" data-lan="category-in">分类于</span>
-      
-      
-      <a href="https://deonrose.github.io/tag/html/">
-        <span>前端</span>
-      </a>
-      
-      
-    </span>
-    <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>3<span class="language" data-lan="minute">分钟</span></span>
+      <span>1<span class="language" data-lan="minute">分钟</span></span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>374<span class="pc-show language" data-lan="words">字数</span></span>
+      <span>28<span class="pc-show language" data-lan="words">字数</span></span>
     </span>
     
   </div>
 </section>
             <div class="post-body next-md-body" id="post_body">
-              <p>hls.js</p>
-<pre><code>https://hls-js.netlify.app/demo/
-</code></pre>
-<p>本网站将会预览一些已有的播放源，演示一些网页m3u8的测试视频。<br>
-如果想在自己网站里加入播放m3u8后缀的文件，就是引入hls.js无论是下载好后本地引入，<br>
-还是通过网络文件的方法引入后通过一系列规则就可以调用m3u8后缀的文件来播放视频。</p>
-<pre><code class="language-html">&lt;body&gt;
-    &lt;script src=&quot;../dist/hls.js&quot;&gt;&lt;/script&gt;
-
-    &lt;center&gt;
-      &lt;h1&gt;Hls.js demo - basic usage&lt;/h1&gt;
-      &lt;video height=&quot;600&quot; id=&quot;video&quot; controls=&quot;&quot; src=&quot;blob:https://hls-js.netlify.app/6e9c6724-9415-4652-af1f-f928d27a44f9&quot;&gt;&lt;/video&gt;
-    &lt;/center&gt;
-
-    &lt;script&gt;
-      var video = document.getElementById('video');
-      if (Hls.isSupported()) {
-        var hls = new Hls({
-          debug: true,
-        });
-        hls.loadSource('https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8');
-        hls.attachMedia(video);
-        hls.on(Hls.Events.MEDIA_ATTACHED, function () {
-          video.muted = true;
-          video.play();
-        });
-      }
-      // hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
-      // When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element throught the `src` property.
-      // This is using the built-in support of the plain video element, without using hls.js.
-      else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8';
-        video.addEventListener('canplay', function () {
-          video.play();
-        });
-      }
-    &lt;/script&gt;
-  &lt;!-- injected in netlify post processing step --&gt;
-&lt;div style=&quot;position: absolute; top: 5px; right: 5px;&quot;&gt;
-  &lt;a rel=&quot;noopener&quot; href=&quot;https://www.netlify.com&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://www.netlify.com/img/global/badges/netlify-color-accent.svg&quot;&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/body&gt;
-</code></pre>
-<p>这是基本的使用示例。</p>
+              <p>不能出现的内容</p>
+<p>姓名    邮箱    电话   这些前缀在面试官眼里没什么意义。</p>
 
             </div>
             
@@ -347,7 +291,7 @@
     </li>
     <li class="post-copyright-link">
       <strong class="language" data-lan="link">本文链接：</strong>
-      <a href="https://deonrose.github.io/post/qFosNa9JR/" title="页面中加入m3u8后缀的播放源">https://deonrose.github.io/post/qFosNa9JR/</a>
+      <a href="https://deonrose.github.io/post/s_6FlWfiV/" title="简历相关的方面">https://deonrose.github.io/post/s_6FlWfiV/</a>
     </li>
     <li class="post-copyright-license">
       <strong class="language" data-lan="copyright">版权声明： </strong>
@@ -356,21 +300,15 @@
   </ul>
   <div class="tags">
     
-      <a href="https://deonrose.github.io/tag/html/"># 前端</a>
-    
   </div>
   <div class="nav">
     <div class="nav-prev">
       
-        <i class="fa fa-chevron-left"></i>
-        <a class="nav-pc-next" title="小说Web应用" href="https://deonrose.github.io/post/4OMKK8_MD/">小说Web应用</a class="nav-pc-next">
-        <a class="nav-mobile-prev" title="小说Web应用" href="https://deonrose.github.io/post/4OMKK8_MD/">上一篇</a>
-      
     </div>
     <div class="nav-next">
       
-        <a class="nav-pc-next" title="留言板" href="https://deonrose.github.io/post/GKcuRPj35/">留言板</a>
-        <a class="nav-mobile-next" title="留言板" href="https://deonrose.github.io/post/GKcuRPj35/">下一篇</a>
+        <a class="nav-pc-next" title="Hello" href="https://deonrose.github.io/post/U7hlRK8lE/">Hello</a>
+        <a class="nav-mobile-next" title="Hello" href="https://deonrose.github.io/post/U7hlRK8lE/">下一篇</a>
         <i class="fa fa-chevron-right"></i>
       
     </div>

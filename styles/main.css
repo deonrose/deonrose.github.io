@@ -2051,15 +2051,17 @@ p > code {
     margin-bottom: 10px;
   }
 }
-body {
+.bg-color .bg-color {
+      background: transparent !important;
+    }body {
       background-color: #eee;
     }.header {
-        width: 1160px;
+        width: 800px;
         margin: 0 auto;
       }
 
       .main-continer {
-        width: 1160px;
+        width: 800px;
         margin: 0 auto;
       }
     body {
@@ -2072,7 +2074,7 @@ body {
       border-bottom-color: #212529;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #a61e4dfe;
+      background: #a61e4dff;
     }h1, h2, h3, h4, h5, h6 {
       color: #1971c2;
     }
@@ -2088,12 +2090,12 @@ body {
     .node-title::before {
       background-color: #1971c2;
     }a {
-      color: #a61e4d;
+      color: #212529;
     }
     
     .next-md-body a, .friends-box a  {
-      color: #a61e4d;
-      border-bottom: 1px solid #a61e4d;
+      color: #212529;
+      border-bottom: 1px solid #212529;
     }a:hover {
       color: #222;
     }
@@ -2119,11 +2121,11 @@ body {
       }.nav-item a:hover {
         color: #222;
       }.nav-item-active {
-      background: #228be6fe;
+      background: #228be6ff;
     }
 
     .nav-item:hover {
-      background: #228be6fe;
+      background: #228be6ff;
       color: rgba(0, 0, 0, 0.98);
     }.site-author-image {
       border-radius: 50%;
@@ -2134,7 +2136,14 @@ body {
       transition-property: all;
       transition-duration: 59s;
       transition-timing-function: cubic-bezier(.34,0,.84,1);
-    }.markdownIt-TOC a {
+    }.pisces .blog-header, .gemini .blog-header {
+        right: 0;
+      }
+      .pisces .section-layout-wrapper, .gemini .section-layout-wrapper {
+        flex-direction: row-reverse !important;
+      }.pisces .sidebar, .gemini .sidebar {
+        right: 0;
+      }.markdownIt-TOC a {
       color: #eee;
       border-bottom-color: #eee;
     }.markdownIt-TOC a:hover {
@@ -2159,7 +2168,13 @@ body {
       color: #fc6423;
       border-bottom-color: #fc6423;
     }.bg-color {
-      background-color: #f8f9fafe;
+      background-color: #f8f9faff;
+    }
+    .gemini .blog-header, .gemini .sidebar-wrapper, .gemini .article-wrapper, .gemini .post, .gemini .page, .gemini .section, .gemini .section-box, .gemini .sidebar-box, .gemini .friends-section {
+      border-radius: Piscespx;
+    }
+    .pisces .blog-header, .pisces .sidebar-wrapper, .pisces .article-wrapper, .pisces .section, .pisces .sidebar-box, .pisces .friends-section {
+      border-radius: Piscespx;
     }
     .site-meta {
       background: #0b7285 !important;
@@ -2168,13 +2183,13 @@ body {
       background: #0b7285;
     }
     .brand {
-      background: #0b7285fe;
+      background: #0b7285ff;
     }
     .main-title, .brand {
       color: #FFF !important;
     }
     .mist .site-title i {
-      background: #FFFFFFfe;
+      background: #FFFFFFff;
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }body {
